@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a2bbcf;
+}
+
+.container {
+    height: 28rem;
+    width: 19rem;
+    border-radius: 1rem;
+    background: #142f44;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 3px solid #205b7a;
+}
+
+.display input {
+    height: 5rem;
+    width: 100%;
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 2rem;
+    color: white;
+    text-align: end;
+}
+
+.display {
+    height: 7rem;
+    border: 2px solid #205b7a;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    padding-right: 1rem;
+    overflow: auto;
+}
+
+.btn-container {
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btns {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    background: #205b7a;
+    color: white;
+    box-shadow: -2px -2px 6px #a2bbcf;
+    border: 2px solid #205b7a;
+}
+
+.btns:hover {
+    scale: 1.05;
+}
+
+
+.inner-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.equal-btn {
+    width: 8.5rem;
+    color: orange;
+}
+
+.ac {
+    color: red;
+}
+
+.del {
+    color: aquamarine;
+}
